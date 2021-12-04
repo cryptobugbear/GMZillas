@@ -1,0 +1,198 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "xx75S8QvJWRspcqMPvFTwe",
+      "projectApiToken": "g8YRhwhb1X7EjFpyB1NBNgAhR0jPUink51iIyx9YZBGTVAraIEFkUTbrEHLSPeKXXInuSwLrp6PbetxIdw",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "Mk9MEh4U4v",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "xx75S8QvJWRspcqMPvFTwe",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "wNYZdzCAE",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group.tsx"
+        },
+        {
+          "id": "0HxfaBY5dj",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "9oKlUowyZhk",
+          "name": "Ellipse2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Ellipse2.tsx"
+        },
+        {
+          "id": "e4uSmmYO2zN",
+          "name": "Ellipse3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Ellipse3.tsx"
+        },
+        {
+          "id": "kgfngmNuhY5",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "ucjbnhycQno",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector3.tsx"
+        },
+        {
+          "id": "7S6doOpA7X6",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "tysHezriu11",
+          "name": "Line1Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Line1.tsx"
+        },
+        {
+          "id": "izoSlNZZtwX",
+          "name": "Line3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Line3.tsx"
+        },
+        {
+          "id": "n9E9IbwoZZO",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "LTmemUvPctH",
+          "name": "Vector4Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector4.tsx"
+        },
+        {
+          "id": "yWA15Xrp0NW",
+          "name": "Line4Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Line4.tsx"
+        },
+        {
+          "id": "9RfeKRy6hDA",
+          "name": "Group6Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group6.tsx"
+        },
+        {
+          "id": "NCQ2saPw4k3",
+          "name": "Vector5Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector5.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "rgxYT5qwJ",
+          "name": "sunny 1",
+          "filePath": "../public/plasmic/blank_project/images/sunny1.png"
+        },
+        {
+          "id": "UDUEIVQl8C",
+          "name": "cherry blossom2-02 1",
+          "filePath": "../public/plasmic/blank_project/images/cherryBlossom2021.png"
+        },
+        {
+          "id": "ZONncs0m2U",
+          "name": "6-01 1",
+          "filePath": "../public/plasmic/blank_project/images/_6011.png"
+        },
+        {
+          "id": "KRuzVsWhHJ",
+          "name": "image 4",
+          "filePath": "../public/plasmic/blank_project/images/image4.png"
+        },
+        {
+          "id": "LPNU5v56Te",
+          "name": "image 3",
+          "filePath": "../public/plasmic/blank_project/images/image3.png"
+        },
+        {
+          "id": "JQDlwE-VgC",
+          "name": "image 1",
+          "filePath": "../public/plasmic/blank_project/images/image1.png"
+        },
+        {
+          "id": "8nXdDFu0tc",
+          "name": "image 2",
+          "filePath": "../public/plasmic/blank_project/images/image2.png"
+        },
+        {
+          "id": "P8JEoXHe4A",
+          "name": "GMZTA_Preview 1",
+          "filePath": "../public/plasmic/blank_project/images/gmztaPreview1.gif"
+        },
+        {
+          "id": "A-AinmjMIn",
+          "name": "preview1 1",
+          "filePath": "../public/plasmic/blank_project/images/preview11.png"
+        },
+        {
+          "id": "KnvQjCxroO",
+          "name": "Group 2",
+          "filePath": "../public/plasmic/blank_project/images/group2.svg"
+        },
+        {
+          "id": "WKFLBCx3v6V",
+          "name": "Group 5",
+          "filePath": "../public/plasmic/blank_project/images/group5.svg"
+        },
+        {
+          "id": "f4qfgwlGwE1",
+          "name": "Group 7",
+          "filePath": "../public/plasmic/blank_project/images/group7.svg"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "A3LZcgrTz0",
+        "name": "Screen",
+        "projectId": "xx75S8QvJWRspcqMPvFTwe",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.166",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
+}
