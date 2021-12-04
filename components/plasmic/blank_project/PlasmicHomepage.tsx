@@ -34,6 +34,8 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: A3LZcgrTz0/globalVariant
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: xx75S8QvJWRspcqMPvFTwe/projectcss
@@ -77,6 +79,10 @@ export type PlasmicHomepage__OverridesType = {
   group2?: p.Flex<"div">;
   rectangle3?: p.Flex<"div">;
   rectangle5?: p.Flex<"div">;
+  group16?: p.Flex<"div">;
+  group18?: p.Flex<"div">;
+  group19?: p.Flex<"div">;
+  group17?: p.Flex<"div">;
   rectangle13?: p.Flex<"div">;
   cherryBlossom2021?: p.Flex<"div">;
   rectangle6?: p.Flex<"div">;
@@ -103,10 +109,6 @@ export type PlasmicHomepage__OverridesType = {
   group13?: p.Flex<"div">;
   group14?: p.Flex<"div">;
   _6011?: p.Flex<"div">;
-  group16?: p.Flex<"div">;
-  group17?: p.Flex<"div">;
-  group18?: p.Flex<"div">;
-  group19?: p.Flex<"div">;
   group15?: p.Flex<"div">;
   gmztaPreview1?: p.Flex<"div">;
   group9?: p.Flex<"div">;
@@ -152,6 +154,10 @@ function PlasmicHomepage__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
 
   return (
     <React.Fragment>
@@ -354,7 +360,154 @@ function PlasmicHomepage__RenderFunc(props: {
                   projectcss.all,
                   sty.rectangle5
                 )}
-              />
+              >
+                <div
+                  data-plasmic-name={"group16"}
+                  data-plasmic-override={overrides.group16}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.group16
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__ghVfp
+                    )}
+                  >
+                    {"PHASE 1"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__ox8J
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "- Presale spots for 500 OG Members\n- Contests and Giveaways (Additional 500 presale slots)\n- Auction of 10 Legendary GMZilla NFTs\n- Launch in December 2021 (Tentatively)"
+                      : "- Presale spots for 500 OG Members\n- Contests and Giveaways (Additional 500 presale slots)\n- Auction of 10 Legendary GMZilla NFTs\n- Launch in December 2021 (Tentatively)"}
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"group18"}
+                  data-plasmic-override={overrides.group18}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.group18
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__dwH9N
+                    )}
+                  >
+                    {"PHASE 3"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__ri3Px
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "- Aquire CryptoVoxel land for Community Activities\n- Proceeds of Legendary GMZilla Auction will bootstrap \n  $GTA token, and holders of every GMZTA NFT will \n  receive an airdrop, Tokenomics TBC\n- Sneak Peeks Into Super Ultra Secret Project"
+                      : "- Aquire CryptoVoxel land for Community Activities\n- Proceeds of Legendary GMZilla Auction will bootstrap \n  $GTA token, and holders of every GMZTA NFT will \n  receive an airdrop, Tokenomics TBC\n- Sneak Peeks Into Super Ultra Secret Project"}
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"group19"}
+                  data-plasmic-override={overrides.group19}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.group19
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text___7Ko
+                    )}
+                  >
+                    {"PHASE 4"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__ly65S
+                    )}
+                  >
+                    {
+                      "- 1000 Travel Tickets to be minted using $GTA\n- Aquire Sandbox Land for development\n- Hire voxel architect to build GMZilla VX Collection"
+                    }
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"group17"}
+                  data-plasmic-override={overrides.group17}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.group17
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__bUclj
+                    )}
+                  >
+                    {"PHASE 2"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__mbq0V
+                    )}
+                  >
+                    {
+                      "- Rarity Sniper Rankings\n- Listed on Rarity Tools \n- GMZTA Limited Merch\n- Super Ultra Secret Project"
+                    }
+                  </div>
+                </div>
+
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    defaultcss.__wab_text,
+                    sty.text___60Vjb
+                  )}
+                >
+                  {"AND MORE..."}
+                </div>
+              </div>
 
               <div
                 data-plasmic-name={"rectangle13"}
@@ -884,153 +1037,6 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
                 role={"img"}
               />
-
-              <div
-                data-plasmic-name={"group16"}
-                data-plasmic-override={overrides.group16}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group16
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__ghVfp
-                  )}
-                >
-                  {"PHASE 1"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__ox8J
-                  )}
-                >
-                  {
-                    "- Presale spots for 500 OG Members\n- Contests and Giveaways (Additional 500 presale slots)\n- Auction of 10 Legendary GMZilla NFTs\n- Launch in December 2021 (Tentatively)"
-                  }
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"group17"}
-                data-plasmic-override={overrides.group17}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group17
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__bUclj
-                  )}
-                >
-                  {"PHASE 2"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__mbq0V
-                  )}
-                >
-                  {
-                    "- Rarity Sniper Rankings\n- Listed on Rarity Tools \n- GMZTA Limited Merch\n- Super Ultra Secret Project"
-                  }
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"group18"}
-                data-plasmic-override={overrides.group18}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group18
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__dwH9N
-                  )}
-                >
-                  {"PHASE 3"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__ri3Px
-                  )}
-                >
-                  {
-                    "- Aquire CryptoVoxel land for Community Activities\n- Proceeds of Legendary GMZilla Auction will bootstrap \n  $GTA token, and holders of every GMZTA NFT will \n  receive an airdrop, Tokenomics TBC\n- Sneak Peeks Into Super Ultra Secret Project"
-                  }
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"group19"}
-                data-plasmic-override={overrides.group19}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group19
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___7Ko
-                  )}
-                >
-                  {"PHASE 4"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__ly65S
-                  )}
-                >
-                  {
-                    "- 1000 Travel Tickets to be minted using $GTA\n- Aquire Sandbox Land for development\n- Hire voxel architect to build GMZilla VX Collection"
-                  }
-                </div>
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text___60Vjb
-                )}
-              >
-                {"AND MORE..."}
-              </div>
 
               <div
                 data-plasmic-name={"group15"}
@@ -1938,6 +1944,10 @@ const PlasmicDescendants = {
     "group2",
     "rectangle3",
     "rectangle5",
+    "group16",
+    "group18",
+    "group19",
+    "group17",
     "rectangle13",
     "cherryBlossom2021",
     "rectangle6",
@@ -1964,10 +1974,6 @@ const PlasmicDescendants = {
     "group13",
     "group14",
     "_6011",
-    "group16",
-    "group17",
-    "group18",
-    "group19",
     "group15",
     "gmztaPreview1",
     "group9",
@@ -2013,6 +2019,10 @@ const PlasmicDescendants = {
     "group2",
     "rectangle3",
     "rectangle5",
+    "group16",
+    "group18",
+    "group19",
+    "group17",
     "rectangle13",
     "cherryBlossom2021",
     "rectangle6",
@@ -2039,10 +2049,6 @@ const PlasmicDescendants = {
     "group13",
     "group14",
     "_6011",
-    "group16",
-    "group17",
-    "group18",
-    "group19",
     "group15",
     "gmztaPreview1",
     "group9",
@@ -2087,6 +2093,10 @@ const PlasmicDescendants = {
     "group2",
     "rectangle3",
     "rectangle5",
+    "group16",
+    "group18",
+    "group19",
+    "group17",
     "rectangle13",
     "cherryBlossom2021",
     "rectangle6",
@@ -2113,10 +2123,6 @@ const PlasmicDescendants = {
     "group13",
     "group14",
     "_6011",
-    "group16",
-    "group17",
-    "group18",
-    "group19",
     "group15",
     "gmztaPreview1",
     "group9",
@@ -2156,7 +2162,11 @@ const PlasmicDescendants = {
   layer1: ["layer1", "group2"],
   group2: ["group2"],
   rectangle3: ["rectangle3"],
-  rectangle5: ["rectangle5"],
+  rectangle5: ["rectangle5", "group16", "group18", "group19", "group17"],
+  group16: ["group16"],
+  group18: ["group18"],
+  group19: ["group19"],
+  group17: ["group17"],
   rectangle13: ["rectangle13"],
   cherryBlossom2021: ["cherryBlossom2021"],
   rectangle6: ["rectangle6"],
@@ -2191,10 +2201,6 @@ const PlasmicDescendants = {
   group13: ["group13", "group14"],
   group14: ["group14"],
   _6011: ["_6011"],
-  group16: ["group16"],
-  group17: ["group17"],
-  group18: ["group18"],
-  group19: ["group19"],
   group15: ["group15", "gmztaPreview1"],
   gmztaPreview1: ["gmztaPreview1"],
   group9: ["group9", "layer2", "group10"],
@@ -2247,6 +2253,10 @@ type NodeDefaultElementType = {
   group2: "div";
   rectangle3: "div";
   rectangle5: "div";
+  group16: "div";
+  group18: "div";
+  group19: "div";
+  group17: "div";
   rectangle13: "div";
   cherryBlossom2021: "div";
   rectangle6: "div";
@@ -2273,10 +2283,6 @@ type NodeDefaultElementType = {
   group13: "div";
   group14: "div";
   _6011: "div";
-  group16: "div";
-  group17: "div";
-  group18: "div";
-  group19: "div";
   group15: "div";
   gmztaPreview1: "div";
   group9: "div";
@@ -2383,6 +2389,10 @@ export const PlasmicHomepage = Object.assign(
     group2: makeNodeComponent("group2"),
     rectangle3: makeNodeComponent("rectangle3"),
     rectangle5: makeNodeComponent("rectangle5"),
+    group16: makeNodeComponent("group16"),
+    group18: makeNodeComponent("group18"),
+    group19: makeNodeComponent("group19"),
+    group17: makeNodeComponent("group17"),
     rectangle13: makeNodeComponent("rectangle13"),
     cherryBlossom2021: makeNodeComponent("cherryBlossom2021"),
     rectangle6: makeNodeComponent("rectangle6"),
@@ -2409,10 +2419,6 @@ export const PlasmicHomepage = Object.assign(
     group13: makeNodeComponent("group13"),
     group14: makeNodeComponent("group14"),
     _6011: makeNodeComponent("_6011"),
-    group16: makeNodeComponent("group16"),
-    group17: makeNodeComponent("group17"),
-    group18: makeNodeComponent("group18"),
-    group19: makeNodeComponent("group19"),
     group15: makeNodeComponent("group15"),
     gmztaPreview1: makeNodeComponent("gmztaPreview1"),
     group9: makeNodeComponent("group9"),
