@@ -54,6 +54,20 @@ import Vector4Icon from "./icons/PlasmicIcon__Vector4"; // plasmic-import: LTmem
 import Line4Icon from "./icons/PlasmicIcon__Line4"; // plasmic-import: yWA15Xrp0NW/icon
 import Group6Icon from "./icons/PlasmicIcon__Group6"; // plasmic-import: 9RfeKRy6hDA/icon
 import Vector5Icon from "./icons/PlasmicIcon__Vector5"; // plasmic-import: NCQ2saPw4k3/icon
+import Group8Icon from "./icons/PlasmicIcon__Group8"; // plasmic-import: Nj6jZJn0_r/icon
+import Vector6Icon from "./icons/PlasmicIcon__Vector6"; // plasmic-import: WXcpyE4Pdt/icon
+import Group866Icon from "./icons/PlasmicIcon__Group866"; // plasmic-import: -p37E2U0-2V/icon
+import Line5Icon from "./icons/PlasmicIcon__Line5"; // plasmic-import: u50mDqbSPuL/icon
+import Ellipse5Icon from "./icons/PlasmicIcon__Ellipse5"; // plasmic-import: xE9Q_ynHQdA/icon
+import Group10Icon from "./icons/PlasmicIcon__Group10"; // plasmic-import: ZhF8eXqWx62/icon
+import Vector7Icon from "./icons/PlasmicIcon__Vector7"; // plasmic-import: SapFmS2H-2F/icon
+import Line2Icon from "./icons/PlasmicIcon__Line2"; // plasmic-import: WtUBniWG3kV/icon
+import Line8Icon from "./icons/PlasmicIcon__Line8"; // plasmic-import: tKjLwdIbUcM/icon
+import Vector8Icon from "./icons/PlasmicIcon__Vector8"; // plasmic-import: vKGlXT3WC/icon
+import Group12Icon from "./icons/PlasmicIcon__Group12"; // plasmic-import: VKITonYrfS/icon
+import Vector9Icon from "./icons/PlasmicIcon__Vector9"; // plasmic-import: Gq6eJgVK32/icon
+import Group13Icon from "./icons/PlasmicIcon__Group13"; // plasmic-import: bhifgQB9z3/icon
+import Vector10Icon from "./icons/PlasmicIcon__Vector10"; // plasmic-import: -nRjnyyV3T/icon
 
 export type PlasmicHomepage__VariantMembers = {};
 
@@ -140,6 +154,28 @@ export type PlasmicHomepage__OverridesType = {
   rectangle24?: p.Flex<"div">;
   rectangle25?: p.Flex<"div">;
   rectangle26?: p.Flex<"div">;
+  mobileVer?: p.Flex<"div">;
+  sunny2?: p.Flex<"div">;
+  cherryBlossom2022?: p.Flex<"div">;
+  preview12?: p.Flex<"div">;
+  frame2?: p.Flex<"div">;
+  gmztaPreview2?: p.Flex<"div">;
+  frame863?: p.Flex<"div">;
+  frame859?: p.Flex<"div">;
+  group873?: p.Flex<"div">;
+  frame860?: p.Flex<"div">;
+  group874?: p.Flex<"div">;
+  frame861?: p.Flex<"div">;
+  group875?: p.Flex<"div">;
+  frame862?: p.Flex<"div">;
+  group876?: p.Flex<"div">;
+  _6012?: p.Flex<"div">;
+  group880?: p.Flex<"div">;
+  setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2?: p.Flex<"div">;
+  group877?: p.Flex<"div">;
+  group878?: p.Flex<"div">;
+  group879?: p.Flex<"div">;
+  frame864?: p.Flex<"div">;
 };
 
 export interface DefaultHomepageProps {
@@ -186,762 +222,1754 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"figmaPaste"}
-            data-plasmic-override={overrides.figmaPaste}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.figmaPaste
-            )}
-          >
+          {true ? (
             <div
-              data-plasmic-name={"gmZillaLandingPage"}
-              data-plasmic-override={overrides.gmZillaLandingPage}
               className={classNames(
                 defaultcss.all,
                 projectcss.all,
-                sty.gmZillaLandingPage
+                sty.freeBox___7Y05X
               )}
             >
-              <div
-                data-plasmic-name={"sunny1"}
-                data-plasmic-override={overrides.sunny1}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.sunny1
-                )}
-              />
-
-              <div
-                data-plasmic-name={"rectangle11"}
-                data-plasmic-override={overrides.rectangle11}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle11
-                )}
-              />
-
-              <div
-                data-plasmic-name={"rectangle16"}
-                data-plasmic-override={overrides.rectangle16}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle16
-                )}
-              />
-
-              <div
-                data-plasmic-name={"rectangle1"}
-                data-plasmic-override={overrides.rectangle1}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle1
-                )}
-              />
-
-              <div
-                data-plasmic-name={"frame"}
-                data-plasmic-override={overrides.frame}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.frame
-                )}
-              >
+              {(
+                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+              ) ? (
                 <div
-                  data-plasmic-name={"group"}
-                  data-plasmic-override={overrides.group}
+                  data-plasmic-name={"figmaPaste"}
+                  data-plasmic-override={overrides.figmaPaste}
                   className={classNames(
                     defaultcss.all,
                     projectcss.all,
-                    sty.group
+                    sty.figmaPaste
                   )}
                 >
-                  <div
-                    data-plasmic-name={"layer1"}
-                    data-plasmic-override={overrides.layer1}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.layer1
-                    )}
-                  >
-                    <GroupIcon
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.svg__vnP9F
-                      )}
-                      role={"img"}
-                    />
-
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
                     <div
-                      data-plasmic-name={"group2"}
-                      data-plasmic-override={overrides.group2}
+                      data-plasmic-name={"gmZillaLandingPage"}
+                      data-plasmic-override={overrides.gmZillaLandingPage}
                       className={classNames(
                         defaultcss.all,
                         projectcss.all,
-                        sty.group2
+                        sty.gmZillaLandingPage
                       )}
                     >
-                      <VectorIcon
+                      <div
+                        data-plasmic-name={"sunny1"}
+                        data-plasmic-override={overrides.sunny1}
                         className={classNames(
                           defaultcss.all,
                           projectcss.all,
-                          sty.svg__sovke
+                          sty.sunny1
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"rectangle11"}
+                        data-plasmic-override={overrides.rectangle11}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle11
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"rectangle16"}
+                        data-plasmic-override={overrides.rectangle16}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle16
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"rectangle1"}
+                        data-plasmic-override={overrides.rectangle1}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle1
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"frame"}
+                        data-plasmic-override={overrides.frame}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.frame
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"group"}
+                          data-plasmic-override={overrides.group}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"layer1"}
+                            data-plasmic-override={overrides.layer1}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.layer1
+                            )}
+                          >
+                            <GroupIcon
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.svg__vnP9F
+                              )}
+                              role={"img"}
+                            />
+
+                            <div
+                              data-plasmic-name={"group2"}
+                              data-plasmic-override={overrides.group2}
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.group2
+                              )}
+                            >
+                              <VectorIcon
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  sty.svg__sovke
+                                )}
+                                role={"img"}
+                              />
+
+                              <p.PlasmicImg
+                                alt={""}
+                                className={classNames(sty.img__kZnfr)}
+                                displayHeight={"144.263px" as const}
+                                displayMaxHeight={"none" as const}
+                                displayMaxWidth={"100%" as const}
+                                displayMinHeight={"0" as const}
+                                displayMinWidth={"0" as const}
+                                displayWidth={"143.23px" as const}
+                                loading={"lazy" as const}
+                                src={{
+                                  src: "/plasmic/blank_project/images/group2.svg",
+                                  fullWidth: 143.23,
+                                  fullHeight: 144.263,
+                                  aspectRatio: 0.993103
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle3"}
+                        data-plasmic-override={overrides.rectangle3}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle3
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__gb1Yr
+                        )}
+                      >
+                        {"Coming Soon..."}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__lZp
+                        )}
+                      >
+                        {"10,000 of 10,000 available"}
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle5"}
+                        data-plasmic-override={overrides.rectangle5}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle5
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"group16"}
+                          data-plasmic-override={overrides.group16}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group16
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__ghVfp
+                            )}
+                          >
+                            {"PHASE 1"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__ox8J
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "- Presale spots for 500 OG Members\n- Contests and Giveaways (Additional 500 presale slots)\n- Auction of 10 Legendary GMZilla NFTs\n- Launch in December 2021 (Tentatively)"
+                              : "- Presale spots for 500 OG Members\n- Contests and Giveaways (Additional 500 presale slots)\n- Auction of 10 Legendary GMZilla NFTs\n- Launch in December 2021 (Tentatively)"}
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"group18"}
+                          data-plasmic-override={overrides.group18}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group18
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__dwH9N
+                            )}
+                          >
+                            {"PHASE 3"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__ri3Px
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "- Aquire CryptoVoxel land for Community Activities\n- Proceeds of Legendary GMZilla Auction will bootstrap \n  $GTA token, and holders of every GMZTA NFT will \n  receive an airdrop, Tokenomics TBC\n- Sneak Peeks Into Super Ultra Secret Project"
+                              : "- Aquire CryptoVoxel land for Community Activities\n- Proceeds of Legendary GMZilla Auction will bootstrap \n  $GTA token, and holders of every GMZTA NFT will \n  receive an airdrop, Tokenomics TBC\n- Sneak Peeks Into Super Ultra Secret Project"}
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"group19"}
+                          data-plasmic-override={overrides.group19}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group19
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text___7Ko
+                            )}
+                          >
+                            {"PHASE 4"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__ly65S
+                            )}
+                          >
+                            {
+                              "- 1000 Travel Tickets to be minted using $GTA\n- Aquire Sandbox Land for development\n- Hire voxel architect to build GMZilla VX Collection"
+                            }
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"group17"}
+                          data-plasmic-override={overrides.group17}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group17
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__bUclj
+                            )}
+                          >
+                            {"PHASE 2"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__mbq0V
+                            )}
+                          >
+                            {
+                              "- Rarity Sniper Rankings\n- Listed on Rarity Tools \n- GMZTA Limited Merch\n- Super Ultra Secret Project"
+                            }
+                          </div>
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text___60Vjb
+                          )}
+                        >
+                          {"AND MORE..."}
+                        </div>
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle13"}
+                        data-plasmic-override={overrides.rectangle13}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle13
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"cherryBlossom2021"}
+                        data-plasmic-override={overrides.cherryBlossom2021}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.cherryBlossom2021
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"rectangle6"}
+                        data-plasmic-override={overrides.rectangle6}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle6
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"group3"}
+                        data-plasmic-override={overrides.group3}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group3
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"rectangle2"}
+                          data-plasmic-override={overrides.rectangle2}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.rectangle2
+                          )}
+                        />
+
+                        <div
+                          data-plasmic-name={"group4"}
+                          data-plasmic-override={overrides.group4}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group4
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"group1"}
+                            data-plasmic-override={overrides.group1}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.group1
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"preview11"}
+                              data-plasmic-override={overrides.preview11}
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.preview11
+                              )}
+                            />
+                          </div>
+
+                          <Ellipse3Icon
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.svg___20Zgc
+                            )}
+                            role={"img"}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__eb90J
+                          )}
+                        >
+                          {"GET YOUR"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__ciRdZ
+                          )}
+                        >
+                          {"GMZillas"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__mlGb
+                          )}
+                        >
+                          {
+                            "GMZTA is a collection of 10,000 unique generated NFTs (0.05 ETH) launching in December on Ethereum Mainnet.\n\nOur Roadmap 1.0 consists of explosive utilities for GMZTA holders that will elevate your NFT experience and give every Genesis GMZilla holders exclusive access for future drops in our roadmap."
+                          }
+                        </div>
+
+                        <div
+                          data-plasmic-name={"rectangle4"}
+                          data-plasmic-override={overrides.rectangle4}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.rectangle4
+                          )}
+                        />
+
+                        <div
+                          data-plasmic-name={"rectangle7"}
+                          data-plasmic-override={overrides.rectangle7}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.rectangle7
+                          )}
+                        />
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__lr42U
+                          )}
+                        >
+                          {"Coming Soon..."}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__dtuPf
+                          )}
+                        >
+                          {"10,000 of 10,000 available"}
+                        </div>
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__tS5Oh
+                        )}
+                      >
+                        {"OUR TEAM"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text___8Iz4M
+                        )}
+                      >
+                        {"ROADMAP 1.0"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__evcMp
+                        )}
+                      >
+                        {"MomoJira"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__c3U
+                        )}
+                      >
+                        {"Project Manager"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__aqqq1
+                        )}
+                      >
+                        {"Gojiberri"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text___7RoCb
+                        )}
+                      >
+                        {"Marketing Lead"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__eQCh
+                        )}
+                      >
+                        {"GM Jira"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__yRj8N
+                        )}
+                      >
+                        {"Business Developer"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__r7S3U
+                        )}
+                      >
+                        {"Macjira"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__hkQb5
+                        )}
+                      >
+                        {"Full-stack Developer"}
+                      </div>
+
+                      <div
+                        data-plasmic-name={"group7"}
+                        data-plasmic-override={overrides.group7}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group7
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"image4"}
+                          data-plasmic-override={overrides.image4}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.image4
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle8"}
+                        data-plasmic-override={overrides.rectangle8}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle8
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"group6"}
+                        data-plasmic-override={overrides.group6}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group6
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"image3"}
+                          data-plasmic-override={overrides.image3}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.image3
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle9"}
+                        data-plasmic-override={overrides.rectangle9}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle9
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"group5"}
+                        data-plasmic-override={overrides.group5}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group5
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"image1"}
+                          data-plasmic-override={overrides.image1}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.image1
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle10"}
+                        data-plasmic-override={overrides.rectangle10}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle10
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"group8"}
+                        data-plasmic-override={overrides.group8}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group8
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"image2"}
+                          data-plasmic-override={overrides.image2}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.image2
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle12"}
+                        data-plasmic-override={overrides.rectangle12}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle12
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"rectangle14"}
+                        data-plasmic-override={overrides.rectangle14}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle14
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"group13"}
+                        data-plasmic-override={overrides.group13}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group13
+                        )}
+                      >
+                        {true ? (
+                          <div
+                            data-plasmic-name={"group14"}
+                            data-plasmic-override={overrides.group14}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.group14
+                            )}
+                          >
+                            {true ? (
+                              <div
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  defaultcss.__wab_text,
+                                  sty.text__qOxit
+                                )}
+                              >
+                                {"MINT"}
+                              </div>
+                            ) : null}
+
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                defaultcss.__wab_text,
+                                sty.text__b62P0
+                              )}
+                            >
+                              {"ROADMAP"}
+                            </div>
+
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                defaultcss.__wab_text,
+                                sty.text___0V2CU
+                              )}
+                            >
+                              {"RANKING"}
+                            </div>
+
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                defaultcss.__wab_text,
+                                sty.text__uFnuq
+                              )}
+                            >
+                              {"FAQ"}
+                            </div>
+
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                defaultcss.__wab_text,
+                                sty.text__ptqG9
+                              )}
+                            >
+                              {"TEAM"}
+                            </div>
+                          </div>
+                        ) : null}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__ouyZm
+                        )}
+                      >
+                        {"CONNECT"}
+                      </div>
+
+                      <Vector2Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__ivzZw
                         )}
                         role={"img"}
                       />
 
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__kZnfr)}
-                        displayHeight={"144.263px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"143.23px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/blank_project/images/group2.svg",
-                          fullWidth: 143.23,
-                          fullHeight: 144.263,
-                          aspectRatio: 0.993103
-                        }}
+                      <Vector3Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__kobqp
+                        )}
+                        role={"img"}
                       />
+
+                      <div
+                        data-plasmic-name={"_6011"}
+                        data-plasmic-override={overrides._6011}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty._6011
+                        )}
+                      />
+
+                      <Group3Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__zApQp
+                        )}
+                        role={"img"}
+                      />
+
+                      <div
+                        data-plasmic-name={"group15"}
+                        data-plasmic-override={overrides.group15}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group15
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"gmztaPreview1"}
+                          data-plasmic-override={overrides.gmztaPreview1}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.gmztaPreview1
+                          )}
+                        />
+
+                        <Line1Icon
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.svg__ucVhI
+                          )}
+                          role={"img"}
+                        />
+
+                        <Line1Icon
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.svg__lAghe
+                          )}
+                          role={"img"}
+                        />
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__wtX0Q
+                          )}
+                        >
+                          {"GIF"}
+                        </div>
+                      </div>
+
+                      <Line3Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__zvghc
+                        )}
+                        role={"img"}
+                      />
+
+                      <div
+                        data-plasmic-name={"group9"}
+                        data-plasmic-override={overrides.group9}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group9
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"layer2"}
+                          data-plasmic-override={overrides.layer2}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.layer2
+                          )}
+                        >
+                          <Group4Icon
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.svg___99Lxp
+                            )}
+                            role={"img"}
+                          />
+
+                          <div
+                            data-plasmic-name={"group10"}
+                            data-plasmic-override={overrides.group10}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.group10
+                            )}
+                          >
+                            <Vector4Icon
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.svg__nM8Rd
+                              )}
+                              role={"img"}
+                            />
+
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__ss9AM)}
+                              displayHeight={"36.474px" as const}
+                              displayMaxHeight={"none" as const}
+                              displayMaxWidth={"100%" as const}
+                              displayMinHeight={"0" as const}
+                              displayMinWidth={"0" as const}
+                              displayWidth={"36.213px" as const}
+                              loading={"lazy" as const}
+                              src={{
+                                src: "/plasmic/blank_project/images/group5.svg",
+                                fullWidth: 36.213,
+                                fullHeight: 36.474,
+                                aspectRatio: 1
+                              }}
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle15"}
+                        data-plasmic-override={overrides.rectangle15}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle15
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__e32Z0
+                        )}
+                      >
+                        {"FAQ"}
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle17"}
+                        data-plasmic-override={overrides.rectangle17}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle17
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__p0VWh
+                        )}
+                      >
+                        {"Ser How?"}
+                      </div>
+
+                      <div
+                        data-plasmic-name={
+                          "setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats"
+                        }
+                        data-plasmic-override={
+                          overrides.setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats
+                        }
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats
+                        )}
+                      >
+                        {
+                          "Set up your Metamask wallet, load up some ETH (with additional ETH for gas). Connect your wallet, select quantity and mint. Congrats!\n"
+                        }
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text___0MU0
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo"
+                        }
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle18"}
+                        data-plasmic-override={overrides.rectangle18}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle18
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"rectangle19"}
+                        data-plasmic-override={overrides.rectangle19}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle19
+                        )}
+                      />
+
+                      <div
+                        data-plasmic-name={"rectangle20"}
+                        data-plasmic-override={overrides.rectangle20}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle20
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__dvIy
+                        )}
+                      >
+                        {"Wen?"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__pVwj2
+                        )}
+                      >
+                        {"How many GMZillas are out there?"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__ed19
+                        )}
+                      >
+                        {"Wut benefits are there for GMZilla holders?"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__ogFdx
+                        )}
+                      >
+                        {
+                          "Presale mint will begin on 22nd December at 7pm UTC (24hr window) and Public sale will begin on 23rd December at 7pm UTC."
+                        }
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__gdQGn
+                        )}
+                      >
+                        {"There are total of 10,000 GMZillas to be minted."}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__i8Elu
+                        )}
+                      >
+                        {
+                          "Please check our jam-packed roadmap and join our discord for juicy updates."
+                        }
+                      </div>
+
+                      <div
+                        data-plasmic-name={"rectangle21"}
+                        data-plasmic-override={overrides.rectangle21}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.rectangle21
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__xL8Wk
+                        )}
+                      >
+                        {
+                          "Each NFT is generated algorithmically with more than 150 hand drawn traits with varying rarity accross categories."
+                        }
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text___22Juf
+                        )}
+                      >
+                        {"RARITY"}
+                      </div>
+
+                      <div
+                        data-plasmic-name={"group20"}
+                        data-plasmic-override={overrides.group20}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group20
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text___212J
+                          )}
+                        >
+                          {"Total GMZillas"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__fYOhc
+                          )}
+                        >
+                          {"10,000"}
+                        </div>
+                      </div>
+
+                      <div
+                        data-plasmic-name={"group21"}
+                        data-plasmic-override={overrides.group21}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group21
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__ji0H7
+                          )}
+                        >
+                          {"Backgrounds"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__tIeUy
+                          )}
+                        >
+                          {"Weather"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__bq3Za
+                          )}
+                        >
+                          {"Skins"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__tcWin
+                          )}
+                        >
+                          {"Outfit"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__eL3Y7
+                          )}
+                        >
+                          {"Headgear"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__cv5K0
+                          )}
+                        >
+                          {"Eyewear"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__h9DWh
+                          )}
+                        >
+                          {"Handheld"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__tSfpg
+                          )}
+                        >
+                          {"Eyes"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__bYi8I
+                          )}
+                        >
+                          {"Mouth"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__rhpeo
+                          )}
+                        >
+                          {"Plates"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text___7XdGy
+                          )}
+                        >
+                          {"22"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__aQejN
+                          )}
+                        >
+                          {"6"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__nLd5
+                          )}
+                        >
+                          {"8"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text___9JVad
+                          )}
+                        >
+                          {"10"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__h5Zal
+                          )}
+                        >
+                          {"12"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__taDhU
+                          )}
+                        >
+                          {"12"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text___4Awc
+                          )}
+                        >
+                          {"14"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text___12B4
+                          )}
+                        >
+                          {"8"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__g03W6
+                          )}
+                        >
+                          {"12"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__um7Vr
+                          )}
+                        >
+                          {"8"}
+                        </div>
+                      </div>
+
+                      <Line4Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__jrs1V
+                        )}
+                        role={"img"}
+                      />
+
+                      <Vector2Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__h8DPk
+                        )}
+                        role={"img"}
+                      />
+
+                      <Vector3Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__e7Oy
+                        )}
+                        role={"img"}
+                      />
+
+                      <Group3Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__iAUqR
+                        )}
+                        role={"img"}
+                      />
+
+                      <div
+                        data-plasmic-name={"group11"}
+                        data-plasmic-override={overrides.group11}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group11
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"layer3"}
+                          data-plasmic-override={overrides.layer3}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.layer3
+                          )}
+                        >
+                          <Group6Icon
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.svg__fgU4Z
+                            )}
+                            role={"img"}
+                          />
+
+                          <div
+                            data-plasmic-name={"group12"}
+                            data-plasmic-override={overrides.group12}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.group12
+                            )}
+                          >
+                            <Vector5Icon
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.svg__xmNdA
+                              )}
+                              role={"img"}
+                            />
+
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img___3WZes)}
+                              displayHeight={"24.903px" as const}
+                              displayMaxHeight={"none" as const}
+                              displayMaxWidth={"100%" as const}
+                              displayMinHeight={"0" as const}
+                              displayMinWidth={"0" as const}
+                              displayWidth={"24.724px" as const}
+                              loading={"lazy" as const}
+                              src={{
+                                src: "/plasmic/blank_project/images/group7.svg",
+                                fullWidth: 24.724,
+                                fullHeight: 24.903,
+                                aspectRatio: 1
+                              }}
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        data-plasmic-name={"group27"}
+                        data-plasmic-override={overrides.group27}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group27
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"group22"}
+                          data-plasmic-override={overrides.group22}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group22
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"image5"}
+                            data-plasmic-override={overrides.image5}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.image5
+                            )}
+                          />
+                        </div>
+
+                        <div
+                          data-plasmic-name={"rectangle22"}
+                          data-plasmic-override={overrides.rectangle22}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.rectangle22
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        data-plasmic-name={"group26"}
+                        data-plasmic-override={overrides.group26}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group26
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"group23"}
+                          data-plasmic-override={overrides.group23}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group23
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"image6"}
+                            data-plasmic-override={overrides.image6}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.image6
+                            )}
+                          />
+                        </div>
+
+                        <div
+                          data-plasmic-name={"rectangle23"}
+                          data-plasmic-override={overrides.rectangle23}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.rectangle23
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        data-plasmic-name={"group25"}
+                        data-plasmic-override={overrides.group25}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group25
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"group24"}
+                          data-plasmic-override={overrides.group24}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.group24
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"image7"}
+                            data-plasmic-override={overrides.image7}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.image7
+                            )}
+                          />
+                        </div>
+
+                        <div
+                          data-plasmic-name={"rectangle24"}
+                          data-plasmic-override={overrides.rectangle24}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.rectangle24
+                          )}
+                        />
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle3"}
-                data-plasmic-override={overrides.rectangle3}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle3
-                )}
-              />
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__gb1Yr
-                )}
-              >
-                {"Coming Soon..."}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__lZp
-                )}
-              >
-                {"10,000 of 10,000 available"}
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle5"}
-                data-plasmic-override={overrides.rectangle5}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle5
-                )}
-              >
-                <div
-                  data-plasmic-name={"group16"}
-                  data-plasmic-override={overrides.group16}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group16
-                  )}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__ghVfp
-                    )}
-                  >
-                    {"PHASE 1"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__ox8J
-                    )}
-                  >
-                    {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "- Presale spots for 500 OG Members\n- Contests and Giveaways (Additional 500 presale slots)\n- Auction of 10 Legendary GMZilla NFTs\n- Launch in December 2021 (Tentatively)"
-                      : "- Presale spots for 500 OG Members\n- Contests and Giveaways (Additional 500 presale slots)\n- Auction of 10 Legendary GMZilla NFTs\n- Launch in December 2021 (Tentatively)"}
-                  </div>
-                </div>
-
-                <div
-                  data-plasmic-name={"group18"}
-                  data-plasmic-override={overrides.group18}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group18
-                  )}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__dwH9N
-                    )}
-                  >
-                    {"PHASE 3"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__ri3Px
-                    )}
-                  >
-                    {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "- Aquire CryptoVoxel land for Community Activities\n- Proceeds of Legendary GMZilla Auction will bootstrap \n  $GTA token, and holders of every GMZTA NFT will \n  receive an airdrop, Tokenomics TBC\n- Sneak Peeks Into Super Ultra Secret Project"
-                      : "- Aquire CryptoVoxel land for Community Activities\n- Proceeds of Legendary GMZilla Auction will bootstrap \n  $GTA token, and holders of every GMZTA NFT will \n  receive an airdrop, Tokenomics TBC\n- Sneak Peeks Into Super Ultra Secret Project"}
-                  </div>
-                </div>
-
-                <div
-                  data-plasmic-name={"group19"}
-                  data-plasmic-override={overrides.group19}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group19
-                  )}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text___7Ko
-                    )}
-                  >
-                    {"PHASE 4"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__ly65S
-                    )}
-                  >
-                    {
-                      "- 1000 Travel Tickets to be minted using $GTA\n- Aquire Sandbox Land for development\n- Hire voxel architect to build GMZilla VX Collection"
-                    }
-                  </div>
-                </div>
-
-                <div
-                  data-plasmic-name={"group17"}
-                  data-plasmic-override={overrides.group17}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group17
-                  )}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__bUclj
-                    )}
-                  >
-                    {"PHASE 2"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__mbq0V
-                    )}
-                  >
-                    {
-                      "- Rarity Sniper Rankings\n- Listed on Rarity Tools \n- GMZTA Limited Merch\n- Super Ultra Secret Project"
-                    }
-                  </div>
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___60Vjb
-                  )}
-                >
-                  {"AND MORE..."}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle13"}
-                data-plasmic-override={overrides.rectangle13}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle13
-                )}
-              />
-
-              <div
-                data-plasmic-name={"cherryBlossom2021"}
-                data-plasmic-override={overrides.cherryBlossom2021}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.cherryBlossom2021
-                )}
-              />
-
-              <div
-                data-plasmic-name={"rectangle6"}
-                data-plasmic-override={overrides.rectangle6}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle6
-                )}
-              />
-
-              <div
-                data-plasmic-name={"group3"}
-                data-plasmic-override={overrides.group3}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group3
-                )}
-              >
-                <div
-                  data-plasmic-name={"rectangle2"}
-                  data-plasmic-override={overrides.rectangle2}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.rectangle2
-                  )}
-                />
-
-                <div
-                  data-plasmic-name={"group4"}
-                  data-plasmic-override={overrides.group4}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group4
-                  )}
-                >
-                  <div
-                    data-plasmic-name={"group1"}
-                    data-plasmic-override={overrides.group1}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.group1
-                    )}
-                  >
+                  ) : null}
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
                     <div
-                      data-plasmic-name={"preview11"}
-                      data-plasmic-override={overrides.preview11}
+                      data-plasmic-name={"rectangle25"}
+                      data-plasmic-override={overrides.rectangle25}
                       className={classNames(
                         defaultcss.all,
                         projectcss.all,
-                        sty.preview11
+                        sty.rectangle25
                       )}
                     />
-                  </div>
+                  ) : null}
 
-                  <Ellipse3Icon
+                  <div
                     className={classNames(
                       defaultcss.all,
                       projectcss.all,
-                      sty.svg___20Zgc
+                      defaultcss.__wab_text,
+                      sty.text__nv1Fm
                     )}
-                    role={"img"}
+                  >
+                    {"How do I mint?"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__vVn4G
+                    )}
+                  >
+                    {
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                    }
+                  </div>
+
+                  <div
+                    data-plasmic-name={"rectangle26"}
+                    data-plasmic-override={overrides.rectangle26}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.rectangle26
+                    )}
                   />
-                </div>
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__eb90J
-                  )}
-                >
-                  {"GET YOUR"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__ciRdZ
-                  )}
-                >
-                  {"GMZillas"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__mlGb
-                  )}
-                >
-                  {
-                    "GMZTA is a collection of 10,000 unique generated NFTs (0.05 ETH) launching in December on Ethereum Mainnet.\n\nOur Roadmap 1.0 consists of explosive utilities for GMZTA holders that will elevate your NFT experience and give every Genesis GMZilla holders exclusive access for future drops in our roadmap."
-                  }
-                </div>
-
-                <div
-                  data-plasmic-name={"rectangle4"}
-                  data-plasmic-override={overrides.rectangle4}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.rectangle4
-                  )}
-                />
-
-                <div
-                  data-plasmic-name={"rectangle7"}
-                  data-plasmic-override={overrides.rectangle7}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.rectangle7
-                  )}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__lr42U
-                  )}
-                >
-                  {"Coming Soon..."}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__dtuPf
-                  )}
-                >
-                  {"10,000 of 10,000 available"}
-                </div>
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__tS5Oh
-                )}
-              >
-                {"OUR TEAM"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text___8Iz4M
-                )}
-              >
-                {"ROADMAP 1.0"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__evcMp
-                )}
-              >
-                {"MomoJira"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__c3U
-                )}
-              >
-                {"Project Manager"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__aqqq1
-                )}
-              >
-                {"Gojiberri"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text___7RoCb
-                )}
-              >
-                {"Marketing Lead"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__eQCh
-                )}
-              >
-                {"GM Jira"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__yRj8N
-                )}
-              >
-                {"Business Developer"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__r7S3U
-                )}
-              >
-                {"Macjira"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__hkQb5
-                )}
-              >
-                {"Full-stack Developer"}
-              </div>
-
-              <div
-                data-plasmic-name={"group7"}
-                data-plasmic-override={overrides.group7}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group7
-                )}
-              >
-                <div
-                  data-plasmic-name={"image4"}
-                  data-plasmic-override={overrides.image4}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.image4
-                  )}
-                />
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle8"}
-                data-plasmic-override={overrides.rectangle8}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle8
-                )}
-              />
-
-              <div
-                data-plasmic-name={"group6"}
-                data-plasmic-override={overrides.group6}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group6
-                )}
-              >
-                <div
-                  data-plasmic-name={"image3"}
-                  data-plasmic-override={overrides.image3}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.image3
-                  )}
-                />
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle9"}
-                data-plasmic-override={overrides.rectangle9}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle9
-                )}
-              />
-
-              <div
-                data-plasmic-name={"group5"}
-                data-plasmic-override={overrides.group5}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group5
-                )}
-              >
-                <div
-                  data-plasmic-name={"image1"}
-                  data-plasmic-override={overrides.image1}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.image1
-                  )}
-                />
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle10"}
-                data-plasmic-override={overrides.rectangle10}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle10
-                )}
-              />
-
-              <div
-                data-plasmic-name={"group8"}
-                data-plasmic-override={overrides.group8}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group8
-                )}
-              >
-                <div
-                  data-plasmic-name={"image2"}
-                  data-plasmic-override={overrides.image2}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.image2
-                  )}
-                />
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle12"}
-                data-plasmic-override={overrides.rectangle12}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle12
-                )}
-              />
-
-              <div
-                data-plasmic-name={"rectangle14"}
-                data-plasmic-override={overrides.rectangle14}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle14
-                )}
-              />
-
-              <div
-                data-plasmic-name={"group13"}
-                data-plasmic-override={overrides.group13}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group13
-                )}
-              >
-                <div
-                  data-plasmic-name={"group14"}
-                  data-plasmic-override={overrides.group14}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group14
-                  )}
-                >
                   <div
                     className={classNames(
                       defaultcss.all,
                       projectcss.all,
                       defaultcss.__wab_text,
-                      sty.text__qOxit
+                      sty.text___6VBx8
                     )}
                   >
-                    {"MINT"}
+                    {"How do I mint?"}
                   </div>
 
                   <div
@@ -949,10 +1977,373 @@ function PlasmicHomepage__RenderFunc(props: {
                       defaultcss.all,
                       projectcss.all,
                       defaultcss.__wab_text,
-                      sty.text__b62P0
+                      sty.text__izi5U
                     )}
                   >
-                    {"ROADMAP"}
+                    {
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                    }
+                  </div>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+          {true ? (
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__qFy9
+              )}
+            >
+              {(
+                hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? true
+                  : false
+              ) ? (
+                <div
+                  data-plasmic-name={"mobileVer"}
+                  data-plasmic-override={overrides.mobileVer}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.mobileVer
+                  )}
+                >
+                  <div
+                    data-plasmic-name={"sunny2"}
+                    data-plasmic-override={overrides.sunny2}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.sunny2
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__ucDIz
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__wPwEi
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__pb7Yo
+                      )}
+                    >
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <Group8Icon
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.svg__zJwX5
+                          )}
+                          role={"img"}
+                        />
+                      ) : null}
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.freeBox__s6B7K
+                        )}
+                      >
+                        {(
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? true
+                            : true
+                        ) ? (
+                          <Vector6Icon
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.svg__pu7H
+                            )}
+                            role={"img"}
+                          />
+                        ) : null}
+                        {(
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? true
+                            : true
+                        ) ? (
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img___75IZk)}
+                            displayHeight={"27.698px" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"31.218px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/blank_project/images/group9.svg",
+                              fullWidth: 31.218,
+                              fullHeight: 27.698,
+                              aspectRatio: 1.142857
+                            }}
+                          />
+                        ) : null}
+                      </div>
+                    </div>
+                  </div>
+
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <Group866Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__dtqm
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__o7OVv
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__brV
+                    )}
+                  />
+
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <Line5Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__zc9U
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <Line5Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__mOdn3
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <Line5Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__fb1Kw
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <Line5Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__fqwGh
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <Line5Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__uezDt
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__aWkL
+                    )}
+                  >
+                    {"ROADMAP 1.0"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__hAHoJ
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__zv7Ml
+                      )}
+                    >
+                      {"PHASE 1"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__nZhk
+                      )}
+                    >
+                      {
+                        "- Presale spots for 500 OG Members\n- Contests and Giveaways \n(Additional 500 presale slots)\n- Auction of 10 Legendary GMZilla NFTs\n- Launch in December 2021 (Tentatively)"
+                      }
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__ldePj
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__cXwYo
+                      )}
+                    >
+                      {"PHASE 2"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__sPT0
+                      )}
+                    >
+                      {
+                        "- Rarity Sniper Rankings\n- Listed on Rarity Tools \n- GMZTA Limited Merch\n- Super Ultra Secret Project"
+                      }
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__ktGqX
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__tyq2I
+                      )}
+                    >
+                      {"PHASE 3"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__qDpNm
+                      )}
+                    >
+                      {
+                        "- Aquire CryptoVoxel land for Community Activities\n- Proceeds of Legendary GMZilla Auction will bootstrap $GTA token, and holders of every GMZTA NFT will receive an airdrop, Tokenomics TBC\n- Sneak Peeks Into Super Ultra Secret Project"
+                      }
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__x8WrE
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__oubLz
+                      )}
+                    >
+                      {"PHASE 4"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__fiIgk
+                      )}
+                    >
+                      {
+                        "- 1000 Travel Tickets to be minted using $GTA\n- Aquire Sandbox Land for development\n- Hire voxel architect to build GMZilla VX Collection"
+                      }
+                    </div>
                   </div>
 
                   <div
@@ -960,10 +2351,256 @@ function PlasmicHomepage__RenderFunc(props: {
                       defaultcss.all,
                       projectcss.all,
                       defaultcss.__wab_text,
-                      sty.text___0V2CU
+                      sty.text__g3Rk
                     )}
                   >
-                    {"RANKING"}
+                    {"AND MORE..."}
+                  </div>
+
+                  <div
+                    data-plasmic-name={"cherryBlossom2022"}
+                    data-plasmic-override={overrides.cherryBlossom2022}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.cherryBlossom2022
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox___8D7Vh
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__tcFaV
+                      )}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox___3Sqdr
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.freeBox___0KyYl
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"preview12"}
+                          data-plasmic-override={overrides.preview12}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.preview12
+                          )}
+                        />
+                      </div>
+
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <Ellipse5Icon
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.svg__jZbf9
+                          )}
+                          role={"img"}
+                        />
+                      ) : null}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__dQv0
+                      )}
+                    >
+                      {"GET YOUR"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___76Ngp
+                      )}
+                    >
+                      {"GMZillas"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__hgMhZ
+                      )}
+                    >
+                      {
+                        "GMZTA is a collection of 10,000 unique generated NFTs (0.05 ETH) launching in December on Ethereum Mainnet.\n\nOur Roadmap 1.0 consists of explosive utilities for GMZTA holders that will elevate your NFT experience and give every Genesis GMZilla holders exclusive access for future drops in our roadmap."
+                      }
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__v1SRj
+                      )}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox___4TAve
+                      )}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__dnRt4
+                      )}
+                    >
+                      {"Coming Soon..."}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__vz0Y
+                      )}
+                    >
+                      {"10,000 of 10,000 available"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame2"}
+                    data-plasmic-override={overrides.frame2}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.frame2
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox___9XyXg
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.freeBox__vcQt6
+                        )}
+                      >
+                        {(
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? true
+                            : true
+                        ) ? (
+                          <Group10Icon
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.svg__ba2WE
+                            )}
+                            role={"img"}
+                          />
+                        ) : null}
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__blkfq
+                          )}
+                        >
+                          {(
+                            hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? true
+                              : true
+                          ) ? (
+                            <Vector7Icon
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.svg__d1W70
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                          {(
+                            hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? true
+                              : true
+                          ) ? (
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__plt0R)}
+                              displayHeight={"69.917px" as const}
+                              displayMaxHeight={"none" as const}
+                              displayMaxWidth={"100%" as const}
+                              displayMinHeight={"0" as const}
+                              displayMinWidth={"0" as const}
+                              displayWidth={"69.417px" as const}
+                              loading={"lazy" as const}
+                              src={{
+                                src: "/plasmic/blank_project/images/group11.svg",
+                                fullWidth: 69.417,
+                                fullHeight: 69.917,
+                                aspectRatio: 1
+                              }}
+                            />
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__ynDta
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text___0Tolg
+                    )}
+                  >
+                    {"Coming Soon..."}
                   </div>
 
                   <div
@@ -971,958 +2608,1038 @@ function PlasmicHomepage__RenderFunc(props: {
                       defaultcss.all,
                       projectcss.all,
                       defaultcss.__wab_text,
-                      sty.text__uFnuq
+                      sty.text__dSff5
+                    )}
+                  >
+                    {"10,000 of 10,000 available"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__buRoN
+                    )}
+                  >
+                    <div
+                      data-plasmic-name={"gmztaPreview2"}
+                      data-plasmic-override={overrides.gmztaPreview2}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.gmztaPreview2
+                      )}
+                    />
+
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <Line2Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__cpHst
+                        )}
+                        role={"img"}
+                      />
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <Line2Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__dtvtH
+                        )}
+                        role={"img"}
+                      />
+                    ) : null}
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__gbYed
+                      )}
+                    >
+                      {"GIF"}
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__omISe
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__c3Do6
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__hjGdm
+                    )}
+                  >
+                    {"RARITY"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text___3Hp7P
+                    )}
+                  >
+                    {
+                      "Each NFT is generated algorithmically with more than 150 hand drawn traits with varying rarity accross categories."
+                    }
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__woWOc
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__pd1Ws
+                      )}
+                    >
+                      {"Total GMZillas"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__dZzqT
+                      )}
+                    >
+                      {"10,000"}
+                    </div>
+                  </div>
+
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <Line8Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__pvJz6
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox___3K3G7
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__nmpRs
+                      )}
+                    >
+                      {"Backgrounds"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__wxjgg
+                      )}
+                    >
+                      {"Weather"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__wNwJg
+                      )}
+                    >
+                      {"Skins"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__p4BdC
+                      )}
+                    >
+                      {"Outfit"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__fhoNc
+                      )}
+                    >
+                      {"Plates"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___1UrZr
+                      )}
+                    >
+                      {"22"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__miFqx
+                      )}
+                    >
+                      {"6"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___9U2Oj
+                      )}
+                    >
+                      {"8"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__ri0Gv
+                      )}
+                    >
+                      {"10"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__inKk5
+                      )}
+                    >
+                      {"8"}
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox___2DWun
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__tjMvQ
+                    )}
+                  >
+                    {"OUR TEAM"}
+                  </div>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"frame863"}
+                    data-plasmic-override={overrides.frame863}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.frame863
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"frame859"}
+                      data-plasmic-override={overrides.frame859}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.frame859
+                      )}
+                    >
+                      <div
+                        data-plasmic-name={"group873"}
+                        data-plasmic-override={overrides.group873}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group873
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__uqsBp
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.freeBox__uYcwz
+                            )}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__hTRqr
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__xkIvH
+                        )}
+                      >
+                        {"MomoJira"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__wdHbY
+                        )}
+                      >
+                        {"Project Manager"}
+                      </div>
+                    </p.Stack>
+
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"frame860"}
+                      data-plasmic-override={overrides.frame860}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.frame860
+                      )}
+                    >
+                      <div
+                        data-plasmic-name={"group874"}
+                        data-plasmic-override={overrides.group874}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group874
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__gbmaR
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.freeBox__iFc2Z
+                            )}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__rib03
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__ePfuV
+                        )}
+                      >
+                        {"Gojiberri"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__o9Xi5
+                        )}
+                      >
+                        {"Marketing Lead"}
+                      </div>
+                    </p.Stack>
+
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"frame861"}
+                      data-plasmic-override={overrides.frame861}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.frame861
+                      )}
+                    >
+                      <div
+                        data-plasmic-name={"group875"}
+                        data-plasmic-override={overrides.group875}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group875
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__thp5
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.freeBox__jAf9R
+                            )}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__aB2Vm
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text___6AlSa
+                        )}
+                      >
+                        {"GM Jira"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__jlHTz
+                        )}
+                      >
+                        {"Business Developer"}
+                      </div>
+                    </p.Stack>
+
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"frame862"}
+                      data-plasmic-override={overrides.frame862}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.frame862
+                      )}
+                    >
+                      <div
+                        data-plasmic-name={"group876"}
+                        data-plasmic-override={overrides.group876}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.group876
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__gUrJh
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.freeBox__zjOKn
+                            )}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__vSnT
+                          )}
+                        />
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__v2VWk
+                        )}
+                      >
+                        {"Macjira"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__htNxY
+                        )}
+                      >
+                        {"Full-stack Developer"}
+                      </div>
+                    </p.Stack>
+                  </p.Stack>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__ncGrf
+                    )}
+                  />
+
+                  <div
+                    data-plasmic-name={"_6012"}
+                    data-plasmic-override={overrides._6012}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty._6012
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox___8CwEw
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__pMgRa
+                      )}
+                    >
+                      {"Headgear"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__dft64
+                      )}
+                    >
+                      {"Eyewear"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__kWuh
+                      )}
+                    >
+                      {"Handheld"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__ozYuq
+                      )}
+                    >
+                      {"Eyes"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___0KRr
+                      )}
+                    >
+                      {"Mouth"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__vQrzo
+                      )}
+                    >
+                      {"12"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___5JHhE
+                      )}
+                    >
+                      {"12"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__irkZl
+                      )}
+                    >
+                      {"14"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__wiJ4H
+                      )}
+                    >
+                      {"8"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__kLhpl
+                      )}
+                    >
+                      {"12"}
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__hNrdE
                     )}
                   >
                     {"FAQ"}
                   </div>
 
                   <div
+                    data-plasmic-name={"group880"}
+                    data-plasmic-override={overrides.group880}
                     className={classNames(
                       defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__ptqG9
+                      sty.group880
                     )}
                   >
-                    {"TEAM"}
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__ouyZm
-                )}
-              >
-                {"CONNECT"}
-              </div>
-
-              <Vector2Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__ivzZw
-                )}
-                role={"img"}
-              />
-
-              <Vector3Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__kobqp
-                )}
-                role={"img"}
-              />
-
-              <div
-                data-plasmic-name={"_6011"}
-                data-plasmic-override={overrides._6011}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty._6011
-                )}
-              />
-
-              <Group3Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__zApQp
-                )}
-                role={"img"}
-              />
-
-              <div
-                data-plasmic-name={"group15"}
-                data-plasmic-override={overrides.group15}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group15
-                )}
-              >
-                <div
-                  data-plasmic-name={"gmztaPreview1"}
-                  data-plasmic-override={overrides.gmztaPreview1}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.gmztaPreview1
-                  )}
-                />
-
-                <Line1Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__ucVhI
-                  )}
-                  role={"img"}
-                />
-
-                <Line1Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__lAghe
-                  )}
-                  role={"img"}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__wtX0Q
-                  )}
-                >
-                  {"GIF"}
-                </div>
-              </div>
-
-              <Line3Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__zvghc
-                )}
-                role={"img"}
-              />
-
-              <div
-                data-plasmic-name={"group9"}
-                data-plasmic-override={overrides.group9}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group9
-                )}
-              >
-                <div
-                  data-plasmic-name={"layer2"}
-                  data-plasmic-override={overrides.layer2}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.layer2
-                  )}
-                >
-                  <Group4Icon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg___99Lxp
-                    )}
-                    role={"img"}
-                  />
-
-                  <div
-                    data-plasmic-name={"group10"}
-                    data-plasmic-override={overrides.group10}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.group10
-                    )}
-                  >
-                    <Vector4Icon
+                    <div
                       className={classNames(
                         defaultcss.all,
                         projectcss.all,
-                        sty.svg__nM8Rd
+                        sty.freeBox__zkQtW
                       )}
-                      role={"img"}
                     />
 
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__ss9AM)}
-                      displayHeight={"36.474px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"36.213px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/blank_project/images/group5.svg",
-                        fullWidth: 36.213,
-                        fullHeight: 36.474,
-                        aspectRatio: 1
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle15"}
-                data-plasmic-override={overrides.rectangle15}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle15
-                )}
-              />
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__e32Z0
-                )}
-              >
-                {"FAQ"}
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle17"}
-                data-plasmic-override={overrides.rectangle17}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle17
-                )}
-              />
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__p0VWh
-                )}
-              >
-                {"Ser How?"}
-              </div>
-
-              <div
-                data-plasmic-name={
-                  "setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats"
-                }
-                data-plasmic-override={
-                  overrides.setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats
-                }
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats
-                )}
-              >
-                {
-                  "Set up your Metamask wallet, load up some ETH (with additional ETH for gas). Connect your wallet, select quantity and mint. Congrats!\n"
-                }
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text___0MU0
-                )}
-              >
-                {
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo"
-                }
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle18"}
-                data-plasmic-override={overrides.rectangle18}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle18
-                )}
-              />
-
-              <div
-                data-plasmic-name={"rectangle19"}
-                data-plasmic-override={overrides.rectangle19}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle19
-                )}
-              />
-
-              <div
-                data-plasmic-name={"rectangle20"}
-                data-plasmic-override={overrides.rectangle20}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle20
-                )}
-              />
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__dvIy
-                )}
-              >
-                {"Wen?"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__pVwj2
-                )}
-              >
-                {"How many GMZillas are out there?"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__ed19
-                )}
-              >
-                {"Wut benefits are there for GMZilla holders?"}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__ogFdx
-                )}
-              >
-                {
-                  "Presale mint will begin on 22nd December at 7pm UTC (24hr window) and Public sale will begin on 23rd December at 7pm UTC."
-                }
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__gdQGn
-                )}
-              >
-                {"There are total of 10,000 GMZillas to be minted."}
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__i8Elu
-                )}
-              >
-                {
-                  "Please check our jam-packed roadmap and join our discord for juicy updates."
-                }
-              </div>
-
-              <div
-                data-plasmic-name={"rectangle21"}
-                data-plasmic-override={overrides.rectangle21}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.rectangle21
-                )}
-              />
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__xL8Wk
-                )}
-              >
-                {
-                  "Each NFT is generated algorithmically with more than 150 hand drawn traits with varying rarity accross categories."
-                }
-              </div>
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text___22Juf
-                )}
-              >
-                {"RARITY"}
-              </div>
-
-              <div
-                data-plasmic-name={"group20"}
-                data-plasmic-override={overrides.group20}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group20
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___212J
-                  )}
-                >
-                  {"Total GMZillas"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__fYOhc
-                  )}
-                >
-                  {"10,000"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"group21"}
-                data-plasmic-override={overrides.group21}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group21
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__ji0H7
-                  )}
-                >
-                  {"Backgrounds"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__tIeUy
-                  )}
-                >
-                  {"Weather"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__bq3Za
-                  )}
-                >
-                  {"Skins"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__tcWin
-                  )}
-                >
-                  {"Outfit"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__eL3Y7
-                  )}
-                >
-                  {"Headgear"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__cv5K0
-                  )}
-                >
-                  {"Eyewear"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__h9DWh
-                  )}
-                >
-                  {"Handheld"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__tSfpg
-                  )}
-                >
-                  {"Eyes"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__bYi8I
-                  )}
-                >
-                  {"Mouth"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__rhpeo
-                  )}
-                >
-                  {"Plates"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___7XdGy
-                  )}
-                >
-                  {"22"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__aQejN
-                  )}
-                >
-                  {"6"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__nLd5
-                  )}
-                >
-                  {"8"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___9JVad
-                  )}
-                >
-                  {"10"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__h5Zal
-                  )}
-                >
-                  {"12"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__taDhU
-                  )}
-                >
-                  {"12"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___4Awc
-                  )}
-                >
-                  {"14"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___12B4
-                  )}
-                >
-                  {"8"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__g03W6
-                  )}
-                >
-                  {"12"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__um7Vr
-                  )}
-                >
-                  {"8"}
-                </div>
-              </div>
-
-              <Line4Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__jrs1V
-                )}
-                role={"img"}
-              />
-
-              <Vector2Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__h8DPk
-                )}
-                role={"img"}
-              />
-
-              <Vector3Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__e7Oy
-                )}
-                role={"img"}
-              />
-
-              <Group3Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__iAUqR
-                )}
-                role={"img"}
-              />
-
-              <div
-                data-plasmic-name={"group11"}
-                data-plasmic-override={overrides.group11}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group11
-                )}
-              >
-                <div
-                  data-plasmic-name={"layer3"}
-                  data-plasmic-override={overrides.layer3}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.layer3
-                  )}
-                >
-                  <Group6Icon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__fgU4Z
-                    )}
-                    role={"img"}
-                  />
-
-                  <div
-                    data-plasmic-name={"group12"}
-                    data-plasmic-override={overrides.group12}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.group12
-                    )}
-                  >
-                    <Vector5Icon
+                    <div
                       className={classNames(
                         defaultcss.all,
                         projectcss.all,
-                        sty.svg__xmNdA
+                        defaultcss.__wab_text,
+                        sty.text__ngGk5
                       )}
-                      role={"img"}
+                    >
+                      {"Ser How?"}
+                    </div>
+
+                    <div
+                      data-plasmic-name={
+                        "setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2"
+                      }
+                      data-plasmic-override={
+                        overrides.setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2
+                      }
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2
+                      )}
+                    >
+                      {
+                        "Set up your Metamask wallet, load up some ETH (with additional ETH for gas). Connect your wallet, select quantity and mint. Congrats!\n"
+                      }
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"group877"}
+                    data-plasmic-override={overrides.group877}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.group877
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox___71HgS
+                      )}
                     />
 
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img___3WZes)}
-                      displayHeight={"24.903px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"24.724px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/blank_project/images/group7.svg",
-                        fullWidth: 24.724,
-                        fullHeight: 24.903,
-                        aspectRatio: 1
-                      }}
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__onT7J
+                      )}
+                    >
+                      {"Wen?"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__bigt0
+                      )}
+                    >
+                      {
+                        "Presale mint will begin on 22nd December at 7pm UTC (24hr window) and Public sale will begin on 23rd December at 7pm UTC."
+                      }
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"group878"}
+                    data-plasmic-override={overrides.group878}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.group878
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__w5Qag
+                      )}
                     />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__piRf6
+                      )}
+                    >
+                      {"How many GMZillas are out there?"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__sGher
+                      )}
+                    >
+                      {"There are total of 10,000 GMZillas to be minted."}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"group879"}
+                    data-plasmic-override={overrides.group879}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.group879
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__vfXyb
+                      )}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___8InDk
+                      )}
+                    >
+                      {"Wut benefits are there for GMZilla holders?"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___4Ho7Z
+                      )}
+                    >
+                      {
+                        "Please check our jam-packed roadmap and join our discord for juicy updates."
+                      }
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__dSwVt
+                    )}
+                  />
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"frame864"}
+                    data-plasmic-override={overrides.frame864}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.frame864
+                    )}
+                  >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <Vector8Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__v8MzL
+                        )}
+                        role={"img"}
+                      />
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <Group12Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__dCgeL
+                        )}
+                        role={"img"}
+                      />
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <Vector9Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__wSsgn
+                        )}
+                        role={"img"}
+                      />
+                    ) : null}
+                  </p.Stack>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__yzJlm
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__kvTu5
+                      )}
+                    >
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <Group13Icon
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.svg__eCyup
+                          )}
+                          role={"img"}
+                        />
+                      ) : null}
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.freeBox__eonT
+                        )}
+                      >
+                        {(
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? true
+                            : true
+                        ) ? (
+                          <Vector10Icon
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.svg__xzK9T
+                            )}
+                            role={"img"}
+                          />
+                        ) : null}
+                        {(
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? true
+                            : true
+                        ) ? (
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__x7Evg)}
+                            displayHeight={"31.253px" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"31.03px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/blank_project/images/group14.svg",
+                              fullWidth: 31.03,
+                              fullHeight: 31.253,
+                              aspectRatio: 1
+                            }}
+                          />
+                        ) : null}
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div
-                data-plasmic-name={"group27"}
-                data-plasmic-override={overrides.group27}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group27
-                )}
-              >
-                <div
-                  data-plasmic-name={"group22"}
-                  data-plasmic-override={overrides.group22}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group22
-                  )}
-                >
-                  <div
-                    data-plasmic-name={"image5"}
-                    data-plasmic-override={overrides.image5}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.image5
-                    )}
-                  />
-                </div>
-
-                <div
-                  data-plasmic-name={"rectangle22"}
-                  data-plasmic-override={overrides.rectangle22}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.rectangle22
-                  )}
-                />
-              </div>
-
-              <div
-                data-plasmic-name={"group26"}
-                data-plasmic-override={overrides.group26}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group26
-                )}
-              >
-                <div
-                  data-plasmic-name={"group23"}
-                  data-plasmic-override={overrides.group23}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group23
-                  )}
-                >
-                  <div
-                    data-plasmic-name={"image6"}
-                    data-plasmic-override={overrides.image6}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.image6
-                    )}
-                  />
-                </div>
-
-                <div
-                  data-plasmic-name={"rectangle23"}
-                  data-plasmic-override={overrides.rectangle23}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.rectangle23
-                  )}
-                />
-              </div>
-
-              <div
-                data-plasmic-name={"group25"}
-                data-plasmic-override={overrides.group25}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.group25
-                )}
-              >
-                <div
-                  data-plasmic-name={"group24"}
-                  data-plasmic-override={overrides.group24}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.group24
-                  )}
-                >
-                  <div
-                    data-plasmic-name={"image7"}
-                    data-plasmic-override={overrides.image7}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.image7
-                    )}
-                  />
-                </div>
-
-                <div
-                  data-plasmic-name={"rectangle24"}
-                  data-plasmic-override={overrides.rectangle24}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.rectangle24
-                  )}
-                />
-              </div>
+              ) : null}
             </div>
-
-            <div
-              data-plasmic-name={"rectangle25"}
-              data-plasmic-override={overrides.rectangle25}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.rectangle25
-              )}
-            />
-
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                defaultcss.__wab_text,
-                sty.text__nv1Fm
-              )}
-            >
-              {"How do I mint?"}
-            </div>
-
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                defaultcss.__wab_text,
-                sty.text__vVn4G
-              )}
-            >
-              {
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-              }
-            </div>
-
-            <div
-              data-plasmic-name={"rectangle26"}
-              data-plasmic-override={overrides.rectangle26}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.rectangle26
-              )}
-            />
-
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                defaultcss.__wab_text,
-                sty.text___6VBx8
-              )}
-            >
-              {"How do I mint?"}
-            </div>
-
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                defaultcss.__wab_text,
-                sty.text__izi5U
-              )}
-            >
-              {
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-              }
-            </div>
-          </div>
+          ) : null}
         </p.Stack>
       </div>
     </React.Fragment>
@@ -2004,7 +3721,29 @@ const PlasmicDescendants = {
     "image7",
     "rectangle24",
     "rectangle25",
-    "rectangle26"
+    "rectangle26",
+    "mobileVer",
+    "sunny2",
+    "cherryBlossom2022",
+    "preview12",
+    "frame2",
+    "gmztaPreview2",
+    "frame863",
+    "frame859",
+    "group873",
+    "frame860",
+    "group874",
+    "frame861",
+    "group875",
+    "frame862",
+    "group876",
+    "_6012",
+    "group880",
+    "setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2",
+    "group877",
+    "group878",
+    "group879",
+    "frame864"
   ],
   figmaPaste: [
     "figmaPaste",
@@ -2234,7 +3973,68 @@ const PlasmicDescendants = {
   image7: ["image7"],
   rectangle24: ["rectangle24"],
   rectangle25: ["rectangle25"],
-  rectangle26: ["rectangle26"]
+  rectangle26: ["rectangle26"],
+  mobileVer: [
+    "mobileVer",
+    "sunny2",
+    "cherryBlossom2022",
+    "preview12",
+    "frame2",
+    "gmztaPreview2",
+    "frame863",
+    "frame859",
+    "group873",
+    "frame860",
+    "group874",
+    "frame861",
+    "group875",
+    "frame862",
+    "group876",
+    "_6012",
+    "group880",
+    "setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2",
+    "group877",
+    "group878",
+    "group879",
+    "frame864"
+  ],
+  sunny2: ["sunny2"],
+  cherryBlossom2022: ["cherryBlossom2022"],
+  preview12: ["preview12"],
+  frame2: ["frame2"],
+  gmztaPreview2: ["gmztaPreview2"],
+  frame863: [
+    "frame863",
+    "frame859",
+    "group873",
+    "frame860",
+    "group874",
+    "frame861",
+    "group875",
+    "frame862",
+    "group876"
+  ],
+  frame859: ["frame859", "group873"],
+  group873: ["group873"],
+  frame860: ["frame860", "group874"],
+  group874: ["group874"],
+  frame861: ["frame861", "group875"],
+  group875: ["group875"],
+  frame862: ["frame862", "group876"],
+  group876: ["group876"],
+  _6012: ["_6012"],
+  group880: [
+    "group880",
+    "setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2"
+  ],
+  setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2:
+    [
+      "setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2"
+    ],
+  group877: ["group877"],
+  group878: ["group878"],
+  group879: ["group879"],
+  frame864: ["frame864"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -2314,6 +4114,28 @@ type NodeDefaultElementType = {
   rectangle24: "div";
   rectangle25: "div";
   rectangle26: "div";
+  mobileVer: "div";
+  sunny2: "div";
+  cherryBlossom2022: "div";
+  preview12: "div";
+  frame2: "div";
+  gmztaPreview2: "div";
+  frame863: "div";
+  frame859: "div";
+  group873: "div";
+  frame860: "div";
+  group874: "div";
+  frame861: "div";
+  group875: "div";
+  frame862: "div";
+  group876: "div";
+  _6012: "div";
+  group880: "div";
+  setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2: "div";
+  group877: "div";
+  group878: "div";
+  group879: "div";
+  frame864: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -2453,6 +4275,31 @@ export const PlasmicHomepage = Object.assign(
     rectangle24: makeNodeComponent("rectangle24"),
     rectangle25: makeNodeComponent("rectangle25"),
     rectangle26: makeNodeComponent("rectangle26"),
+    mobileVer: makeNodeComponent("mobileVer"),
+    sunny2: makeNodeComponent("sunny2"),
+    cherryBlossom2022: makeNodeComponent("cherryBlossom2022"),
+    preview12: makeNodeComponent("preview12"),
+    frame2: makeNodeComponent("frame2"),
+    gmztaPreview2: makeNodeComponent("gmztaPreview2"),
+    frame863: makeNodeComponent("frame863"),
+    frame859: makeNodeComponent("frame859"),
+    group873: makeNodeComponent("group873"),
+    frame860: makeNodeComponent("frame860"),
+    group874: makeNodeComponent("group874"),
+    frame861: makeNodeComponent("frame861"),
+    group875: makeNodeComponent("group875"),
+    frame862: makeNodeComponent("frame862"),
+    group876: makeNodeComponent("group876"),
+    _6012: makeNodeComponent("_6012"),
+    group880: makeNodeComponent("group880"),
+    setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2:
+      makeNodeComponent(
+        "setUpYourMetamaskWalletLoadUpSomeEthWithAdditionalEthForGasConnectYourWalletSelectQuantityAndMintCongrats2"
+      ),
+    group877: makeNodeComponent("group877"),
+    group878: makeNodeComponent("group878"),
+    group879: makeNodeComponent("group879"),
+    frame864: makeNodeComponent("frame864"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
